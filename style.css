@@ -1,0 +1,63 @@
+body {
+    background-color: #101010;
+    color: white;
+}
+
+#line {
+    text-align: center;
+    /* font-size: 55px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#photos {
+    text-align: center;
+    /* font-size: 55px; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* justify-items: center; */
+    /* flex-direction: row; */
+    /* margin-top: 2rem; */
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* .img_container {} */
+
+.imgBox {
+    background-image: url(TIGER.IMG.JPG);
+    /* position: relative; */
+    height: 99%;
+    width: 99%;
+    object-fit: none;
+    cursor: pointer;
+
+
+}
+
+#img {
+    display: block;
+    max-width: 48%;
+    margin: 1rem;
+    border-radius: 1.5rem;
+}
+
+.whiteBox {
+    display: inline-block;
+    height: 295px;
+    width: 350px;
+    margin: 6px;
+    position: relative;
+    top: 99px;
+    left: 66px;
+    border: solid red;
+
+}
+
+.hide {
+    display: none;
+}
